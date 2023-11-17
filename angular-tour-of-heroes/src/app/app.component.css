@@ -1,4 +1,5 @@
 /* Resetting default styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -46,10 +47,13 @@
   .card {
     padding: 20px;
     margin: 40px auto;
-    background-color: #f9f9f9;
+    background-color: #202020;
     border-radius: 8px;
     text-align: center;
     font-size: 27px;
+    color:white;
+    box-shadow: #101010;
+    box-shadow: 0px 0px 100px 30px rgba(32,32,32, 1);
   }
   
 .image-left{
@@ -57,8 +61,7 @@
 }
 
 .image-right{
-    margin-right: 75px;
-}
+    margin-right: 75px;}
 
   .with-image-left, .with-image-right {
     display: flex;
@@ -85,9 +88,10 @@
   
   .full-width-card {
     width: 100%;
-    background-color: lightgray;
+    background-color: #121212;
     padding: 40px;
     text-align: center;
+    color: white;
   }
   
   /* Contact Information */
@@ -115,7 +119,8 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #fff;
+    background-color: #121212;
+    color: white;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -133,5 +138,16 @@ main {
 
   .descriere{
     font-size: 25px;
+    color: white;
   }
+  
+  .sector{
+    font-size: 25px;
+
+    color: white;
+    background-color: #121212;
+  }
+body{
+  background-color: #121212;
+}
   
