@@ -8,19 +8,21 @@ import { DoctorComponent } from './doctor/doctor.component';
 import { WorkoutsComponent } from './workouts/workouts.component';
 import { NoPageFoundComponent } from './no-page-found/no-page-found.component';
 import { HomeComponent } from './home/home.component';
-
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
-    ChatBotComponent,
     DoctorComponent,
     WorkoutsComponent,
     NoPageFoundComponent,
-    HomeComponent
+    HomeComponent,
+    ChatBotComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
