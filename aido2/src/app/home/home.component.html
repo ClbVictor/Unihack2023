@@ -1,13 +1,113 @@
-<!--buttons that bind pages-->
-<div class="container">
-  <div class="row">
-    <div class="col-md-4">
-      <button class="btn btn-primary" routerLink="/doctor">doctor</button>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness Coach</title>
+  <link rel="stylesheet" href="home.component.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">AIDo: Fitness</div>
+    <div class="menu">
+      <a href="#section1">Workouts and meal plans</a>
+      <a href="#section2">Chatbot</a>
+      <a href="#section3">Doctor</a>
+      <a href="#section4">Contact</a>
     </div>
-    <div class="col-md-4">
-      <button class="btn btn-primary" routerLink="/chat-bot">chatbot</button>
-    </div>
-    <div class="col-md-4">
-      <button class="btn btn-primary" routerLink="/workouts">workouts</button>
-    </div>
-  </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <section id="section1" class="card">
+      <h2>Welcome to AIDo</h2>
+      <br>
+
+      <p class="descriere">
+        Our app revolutionizes fitness: a chatbot tailors workouts/diets based on your input and data. </p>
+        <p class="descriere">Get gym tips for progress. In the "doctor" section, describe symptoms for likely health insights. </p>
+        <p class="descriere">Empowering your fitness and health journey, all in one place!</p>
+        <br>
+
+      
+        <button id="teamButton" class="descriere" class="sector">About our team and app</button>
+
+        <!-- Hidden card for team description -->
+        <div id="teamDescription" class="team-description">
+          <h3>Our Team</h3>
+          <p class="descriere">We're Andrei and Victor, a dynamic high school duo passionate about fitness. Our gym experience opened our eyes to the chaos of misinformation online. 
+            We've learned that the one-size-fits-all approach just doesn't cut it in fitness. So, as a team, we're determined to change that. Our goal is to create a platform that offers personalized guidance, 
+            debunking myths, and providing tailored advice. We're here to make starting your fitness journey easier and more reliable for everyone.</p>
+        </div>
+      </section>
+
+    <section id="section2" class="card with-image-left">
+      <div class="image-left">
+        <img src="../assets/AdobeStock_315340843.png">
+      </div>
+      <div class="content">
+        <h2>Workouts and Diets</h2>
+        <br>
+
+        <p>Access your workouts and customized meal plan!</p>
+        <br>
+        <button class="descriere" class="sector" routerLink="/workouts">
+            Take me there!</button>
+      </div>
+    </section>
+
+    <section id="section3" class="card with-image-right">
+      <div class="content">
+        <h2>Chatbot</h2>
+        <br>
+
+        <p>Talk to our specialized chatbot to get tips about the gym!</p>
+        <br>
+
+        <!-- my-component.component.html -->
+       
+        <button class="descriere" class="sector" routerLink="/chat-bot">
+            Take me there!</button>
+            
+         
+        
+        
+        
+        
+
+
+      </div>
+      <div class="image-right">
+        <img src="../assets/123.png">
+      </div>
+    </section>
+
+    <section id="section4" class="full-width-card">
+      <h2 style="font-size: 40px;">Doctor</h2>
+      <br>
+
+      <p class="descriere">This section spans the full width of the screen.</p>
+      <br>
+
+      <button class="descriere" class="sector">Get Started</button>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="contact-info">
+      <div class="content">
+        <h2>Contact Us</h2>
+        <br>
+        <p class="contact">Phone: +40 770 521 816</p>
+        <p class="contact">Email: echipadigitala&#64;gmail.com</p>
+        <p class="contact">Instagram:  <a href="https://www.instagram.com/aido.app/" style="color: white;">&#64;aido.app</a>
+
+        </p>
+        <p class="contact">Address: Strada Exemplu, nr 1234, Sibiu 123456</p>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>

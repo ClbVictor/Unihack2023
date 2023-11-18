@@ -1,0 +1,153 @@
+/* Resetting default styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1000;
+  }
+  
+  .navbar .logo {
+    margin-bottom: 20px;
+    font-size: 34px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  
+  .navbar .menu a {
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+  }
+  
+  /* Main Content */
+  main {
+    padding-top: 80px; /* Adjust this value based on navbar height */
+  }
+  
+  .card {
+    padding: 20px;
+    margin: 40px auto;
+    background-color: #202020;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 27px;
+    color:white;
+    box-shadow: #101010;
+    box-shadow: 0px 0px 100px 30px rgba(32,32,32, 1);
+  }
+  
+.image-left{
+    margin-left: 75px;
+}
+
+.image-right{
+    margin-right: 75px;}
+
+  .with-image-left, .with-image-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .with-image-left .image-left,
+  .with-image-right .image-right {
+    flex: 1;
+  }
+  
+  .with-image-left .content,
+  .with-image-right .content {
+    flex: 2;
+    padding: 0 20px;
+  }
+  
+  .with-image-left img,
+  .with-image-right img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .full-width-card {
+    width: 100%;
+    background-color: #121212;
+    padding: 40px;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Contact Information */
+  .contact-info {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  /* Update main to use flexbox */
+main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Set the contact-info section to stay at the bottom */
+  .contact-info {
+    margin-top: auto;
+  }
+
+  /* Hidden card for team description */
+  .team-description {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #121212;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: none;
+  }
+
+  /* Hover effect for the "About our team and app" button */
+  button {
+    position: relative;
+  }
+
+  button:hover + #teamDescription {
+    display: block;
+  }
+
+  .descriere{
+    font-size: 25px;
+    color: white;
+  }
+  
+  .sector{
+    font-size: 25px;
+
+    color: white;
+    background-color: #121212;
+  }
+body{
+  background-color: #121212;
+}
+  
