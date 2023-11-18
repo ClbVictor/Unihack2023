@@ -8,11 +8,12 @@
   
   /* Navigation Bar */
   .navbar {
+    font-family: Arial, sans-serif;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: darkblue;
+    background-color: rgba(29, 34, 82);
     color: white;
     display: flex;
     justify-content: space-between;
@@ -54,6 +55,7 @@
     color:white;
     box-shadow: #101010;
     box-shadow: 0px 0px 100px 30px rgba(32,32,32, 1);
+    font-family: Arial, sans-serif;
   }
   
 .image-left{
@@ -92,6 +94,7 @@
     padding: 40px;
     text-align: center;
     color: white;
+    font-family: Arial, sans-serif;
   }
   
   /* Contact Information */
@@ -99,6 +102,7 @@
     background-color: black;
     color: white;
     text-align: center;
+    font-family: Arial, sans-serif;
     padding: 40px 20px;
   }
   /* Update main to use flexbox */
@@ -135,15 +139,18 @@ main {
   button:hover + #teamDescription {
     display: block;
   }
+  .hidden {
+    display: none;
+  }
 
   .descriere{
     font-size: 25px;
+    font-family: Arial, sans-serif;
     color: white;
   }
   
   .sector{
     font-size: 25px;
-
     color: white;
     background-color: #121212;
   }
