@@ -9,6 +9,7 @@ import { WorkoutsComponent } from './workouts/workouts.component';
 import { NoPageFoundComponent } from './no-page-found/no-page-found.component';
 import { HomeComponent } from './home/home.component';
 import { FormsModule } from '@angular/forms';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,6 +18,7 @@ import { FormsModule } from '@angular/forms';
     NoPageFoundComponent,
     HomeComponent,
     ChatBotComponent,
+
     
   ],
   imports: [

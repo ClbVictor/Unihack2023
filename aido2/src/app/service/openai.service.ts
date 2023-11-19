@@ -13,9 +13,9 @@ export class OpenaiService {
   }
   
   generateText(prompt: string): Promise<string | undefined> {
-    const messages = {role: 'Engineer', text: 'I am a software engineer.'}
+   
     return this.openai.completions.create({
-      model: "gpt-3.5-turbo-instruct",
+      model: "text-davinci-001",
       
       
       prompt: prompt,
