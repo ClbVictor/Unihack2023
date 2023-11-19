@@ -133,11 +133,18 @@ main {
 
   /* Hover effect for the "About our team and app" button */
   button {
-    position: relative;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4c5baf; /* Green color, you can change it */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
   }
-
-  button:hover + #teamDescription {
-    display: block;
+  
+  button:hover {
+    background-color: rgba(29, 34, 82); /* Darker green on hover, you can change it */
   }
   .hidden {
     display: none;
@@ -156,6 +163,8 @@ main {
   }
 body{
   background-color: #121212;
+ 
+  margin: 0 0 0 0 !important;
 }
 
 .footer {
