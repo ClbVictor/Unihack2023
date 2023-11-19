@@ -6,7 +6,7 @@ import OpenAIApi from 'openai';
 })
 export class OpenaiService {
   private openai: OpenAIApi;
-  private apiKey: string = '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';
+  private apiKey: string = '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';
 
   constructor() {
     this.openai = new OpenAIApi({ apiKey: this.apiKey, dangerouslyAllowBrowser: true });
