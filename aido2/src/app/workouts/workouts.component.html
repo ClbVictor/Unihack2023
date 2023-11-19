@@ -1,4 +1,53 @@
-<p>workouts works!</p>
-<a routerLink="/app-home" class="btn btn-danger btn-lg">
-    Go Back to Home
-</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="workouts.component.css">
+  <title>AIDo: Fitness</title>
+</head>
+<body>
+    <main>
+
+  <nav class="navbar">
+    <div class="logo">AIDo: Fitness</div>
+    <div class="menu">
+        <a routerLink="/app-home" class="btn btn-danger btn-lg">
+            Go Back to Home
+        </a>
+    </div>
+  </nav>
+
+  <div class="content">
+    <div class="card" id="card1">
+      <img src="path_to_image" alt="Push-Pull-Legs">
+      <p class="card-text">Push-Pull-Legs</p>
+    </div>
+    <div class="card" id="card2">
+      <img src="path_to_image" alt="Bro Split">
+      <p class="card-text">Bro Split</p>
+    </div>
+  </div>
+
+  <div class="popup" id="popup1">
+    <!-- Content for Push-Pull-Legs pop-up -->
+  </div>
+  <div class="popup" id="popup2">
+    <!-- Content for Bro Split pop-up -->
+  </div>
+
+  <footer>
+    <div class="content contact-info">
+      <h2>Contact Us</h2>
+      <br>
+      <p class="contact">Phone: +40 770 521 816</p>
+    <p class="contact">Instagram: <a href="https://www.instagram.com/aido.app/" style="color: white;">&#64;aido.app</a></p>
+      <p class="contact">Instagram: <a href="https://www.instagram.com/aido.app/" style="color: white;">&#64;aido.app</a></p>
+      <p class="contact">Address: Strada Exemplu, nr 1234, Sibiu 123456</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</main>
+</body>
+</html>
